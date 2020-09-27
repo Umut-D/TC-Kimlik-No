@@ -1,0 +1,17 @@
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\bin\Release\tc-kimlik-no.exe
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\bin\Release\tc-kimlik-no.pdb
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Release\tc_kimlik_no.FrmTcKimlik.resources
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Release\tc_kimlik_no.Properties.Resources.resources
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Release\tc-kimlik-no.csproj.GenerateResource.Cache
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Release\tc-kimlik-no.exe
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Release\tc-kimlik-no.pdb
+D:\Downloads\tc-kimlik-no-proje\tc-kimlik-no\tc-kimlik-no\bin\Release\TC Kimlik No.exe.config
+D:\Downloads\tc-kimlik-no-proje\tc-kimlik-no\tc-kimlik-no\bin\Release\TC Kimlik No.exe
+D:\Downloads\tc-kimlik-no-proje\tc-kimlik-no\tc-kimlik-no\bin\Release\TC Kimlik No.pdb
+D:\Downloads\tc-kimlik-no-proje\tc-kimlik-no\tc-kimlik-no\obj\Release\tc-kimlik-no.csprojAssemblyReference.cache
+D:\Downloads\tc-kimlik-no-proje\tc-kimlik-no\tc-kimlik-no\obj\Release\TcKimlikNo.FrmTcKimlik.resources
+D:\Downloads\tc-kimlik-no-proje\tc-kimlik-no\tc-kimlik-no\obj\Release\TcKimlikNo.Properties.Resources.resources
+D:\Downloads\tc-kimlik-no-proje\tc-kimlik-no\tc-kimlik-no\obj\Release\tc-kimlik-no.csproj.GenerateResource.cache
+D:\Downloads\tc-kimlik-no-proje\tc-kimlik-no\tc-kimlik-no\obj\Release\tc-kimlik-no.csproj.CoreCompileInputs.cache
+D:\Downloads\tc-kimlik-no-proje\tc-kimlik-no\tc-kimlik-no\obj\Release\TC Kimlik No.exe
+D:\Downloads\tc-kimlik-no-proje\tc-kimlik-no\tc-kimlik-no\obj\Release\TC Kimlik No.pdb

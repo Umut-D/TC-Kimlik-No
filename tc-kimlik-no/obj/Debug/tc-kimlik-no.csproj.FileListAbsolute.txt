@@ -1,0 +1,8 @@
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\bin\Debug\tc-kimlik-no.exe
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\bin\Debug\tc-kimlik-no.pdb
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Debug\tc-kimlik-no.csprojResolveAssemblyReference.cache
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Debug\tc_kimlik_no.FrmTCKimlik.resources
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Debug\tc_kimlik_no.Properties.Resources.resources
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Debug\tc-kimlik-no.csproj.GenerateResource.Cache
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Debug\tc-kimlik-no.exe
+D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Debug\tc-kimlik-no.pdb
