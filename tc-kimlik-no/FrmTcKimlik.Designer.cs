@@ -43,17 +43,22 @@
             this.btnKaydet = new System.Windows.Forms.Button();
             this.sfdKaydet = new System.Windows.Forms.SaveFileDialog();
             this.BtnTopluTest = new System.Windows.Forms.Button();
+            this.statusStrip = new System.Windows.Forms.StatusStrip();
+            this.tsslBilgi = new System.Windows.Forms.ToolStripStatusLabel();
             this.cmsSagTik.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nupSayi)).BeginInit();
+            this.statusStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtTcKimlikNo
             // 
             this.txtTcKimlikNo.ContextMenuStrip = this.cmsSagTik;
-            this.txtTcKimlikNo.Location = new System.Drawing.Point(12, 12);
+            this.txtTcKimlikNo.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtTcKimlikNo.Location = new System.Drawing.Point(14, 14);
+            this.txtTcKimlikNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTcKimlikNo.MaxLength = 11;
             this.txtTcKimlikNo.Name = "txtTcKimlikNo";
-            this.txtTcKimlikNo.Size = new System.Drawing.Size(130, 30);
+            this.txtTcKimlikNo.Size = new System.Drawing.Size(148, 33);
             this.txtTcKimlikNo.TabIndex = 0;
             this.txtTcKimlikNo.TextChanged += new System.EventHandler(this.TxtTcKimlikNo_TextChanged);
             // 
@@ -90,18 +95,26 @@
             // 
             // lboxListe
             // 
+            this.lboxListe.ContextMenuStrip = this.cmsSagTik;
+            this.lboxListe.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.lboxListe.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lboxListe.FormattingEnabled = true;
-            this.lboxListe.ItemHeight = 22;
-            this.lboxListe.Location = new System.Drawing.Point(13, 42);
+            this.lboxListe.ItemHeight = 18;
+            this.lboxListe.Location = new System.Drawing.Point(15, 50);
+            this.lboxListe.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lboxListe.Name = "lboxListe";
-            this.lboxListe.Size = new System.Drawing.Size(185, 158);
+            this.lboxListe.Size = new System.Drawing.Size(211, 274);
             this.lboxListe.TabIndex = 2;
             this.lboxListe.Click += new System.EventHandler(this.LboxListe_Click);
-            this.lboxListe.DoubleClick += new System.EventHandler(this.LboxListe_DoubleClick);
+            this.lboxListe.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.LboxListe_DrawItem);
+            this.lboxListe.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LboxListe_KeyDown);
+            this.lboxListe.MouseDown += new System.Windows.Forms.MouseEventHandler(this.LboxListe_MouseDown);
             // 
             // nupSayi
             // 
-            this.nupSayi.Location = new System.Drawing.Point(148, 13);
+            this.nupSayi.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.nupSayi.Location = new System.Drawing.Point(169, 14);
+            this.nupSayi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nupSayi.Maximum = new decimal(new int[] {
             200,
             0,
@@ -113,19 +126,20 @@
             0,
             0});
             this.nupSayi.Name = "nupSayi";
-            this.nupSayi.Size = new System.Drawing.Size(50, 30);
+            this.nupSayi.Size = new System.Drawing.Size(57, 33);
             this.nupSayi.TabIndex = 3;
             this.nupSayi.Value = new decimal(new int[] {
-            10,
+            15,
             0,
             0,
             0});
             // 
             // btnOlustur
             // 
-            this.btnOlustur.Location = new System.Drawing.Point(204, 13);
+            this.btnOlustur.Location = new System.Drawing.Point(233, 14);
+            this.btnOlustur.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnOlustur.Name = "btnOlustur";
-            this.btnOlustur.Size = new System.Drawing.Size(75, 23);
+            this.btnOlustur.Size = new System.Drawing.Size(86, 28);
             this.btnOlustur.TabIndex = 4;
             this.btnOlustur.Text = "Oluştur";
             this.btnOlustur.UseVisualStyleBackColor = true;
@@ -133,9 +147,10 @@
             // 
             // btnCikis
             // 
-            this.btnCikis.Location = new System.Drawing.Point(204, 188);
+            this.btnCikis.Location = new System.Drawing.Point(233, 296);
+            this.btnCikis.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCikis.Name = "btnCikis";
-            this.btnCikis.Size = new System.Drawing.Size(75, 23);
+            this.btnCikis.Size = new System.Drawing.Size(86, 28);
             this.btnCikis.TabIndex = 5;
             this.btnCikis.Text = "Çıkış";
             this.btnCikis.UseVisualStyleBackColor = true;
@@ -143,9 +158,10 @@
             // 
             // btnKontrolEt
             // 
-            this.btnKontrolEt.Location = new System.Drawing.Point(204, 71);
+            this.btnKontrolEt.Location = new System.Drawing.Point(233, 84);
+            this.btnKontrolEt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnKontrolEt.Name = "btnKontrolEt";
-            this.btnKontrolEt.Size = new System.Drawing.Size(75, 23);
+            this.btnKontrolEt.Size = new System.Drawing.Size(86, 28);
             this.btnKontrolEt.TabIndex = 6;
             this.btnKontrolEt.Text = "Kontrol Et";
             this.btnKontrolEt.UseVisualStyleBackColor = true;
@@ -153,9 +169,10 @@
             // 
             // btnKaydet
             // 
-            this.btnKaydet.Location = new System.Drawing.Point(204, 42);
+            this.btnKaydet.Location = new System.Drawing.Point(233, 49);
+            this.btnKaydet.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Size = new System.Drawing.Size(75, 23);
+            this.btnKaydet.Size = new System.Drawing.Size(86, 28);
             this.btnKaydet.TabIndex = 8;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.UseVisualStyleBackColor = true;
@@ -169,19 +186,39 @@
             // 
             // BtnTopluTest
             // 
-            this.BtnTopluTest.Location = new System.Drawing.Point(204, 100);
+            this.BtnTopluTest.Location = new System.Drawing.Point(233, 119);
+            this.BtnTopluTest.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BtnTopluTest.Name = "BtnTopluTest";
-            this.BtnTopluTest.Size = new System.Drawing.Size(75, 23);
+            this.BtnTopluTest.Size = new System.Drawing.Size(86, 28);
             this.BtnTopluTest.TabIndex = 9;
             this.BtnTopluTest.Text = "Toplu Test";
             this.BtnTopluTest.UseVisualStyleBackColor = true;
             this.BtnTopluTest.Click += new System.EventHandler(this.BtnAktar_Click);
             // 
+            // statusStrip
+            // 
+            this.statusStrip.ImageScalingSize = new System.Drawing.Size(22, 22);
+            this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsslBilgi});
+            this.statusStrip.Location = new System.Drawing.Point(0, 334);
+            this.statusStrip.Name = "statusStrip";
+            this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
+            this.statusStrip.Size = new System.Drawing.Size(331, 22);
+            this.statusStrip.TabIndex = 10;
+            this.statusStrip.Text = "statusStrip1";
+            // 
+            // tsslBilgi
+            // 
+            this.tsslBilgi.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tsslBilgi.Name = "tsslBilgi";
+            this.tsslBilgi.Size = new System.Drawing.Size(0, 15);
+            // 
             // FrmTcKimlik
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(288, 226);
+            this.ClientSize = new System.Drawing.Size(331, 356);
+            this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.BtnTopluTest);
             this.Controls.Add(this.btnKaydet);
             this.Controls.Add(this.btnKontrolEt);
@@ -190,16 +227,18 @@
             this.Controls.Add(this.nupSayi);
             this.Controls.Add(this.lboxListe);
             this.Controls.Add(this.txtTcKimlikNo);
-            this.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "FrmTcKimlik";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TC Kimlik No";
             this.cmsSagTik.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nupSayi)).EndInit();
+            this.statusStrip.ResumeLayout(false);
+            this.statusStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -220,6 +259,8 @@
         private System.Windows.Forms.SaveFileDialog sfdKaydet;
         private System.Windows.Forms.Button BtnTopluTest;
         public System.Windows.Forms.ListBox lboxListe;
+        private System.Windows.Forms.StatusStrip statusStrip;
+        public System.Windows.Forms.ToolStripStatusLabel tsslBilgi;
     }
 }
 

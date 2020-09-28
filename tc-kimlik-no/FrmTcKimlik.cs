@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
@@ -19,6 +20,8 @@ namespace TcKimlikNo
             Islem islem = new Islem();
             int adet = Convert.ToInt32(nupSayi.Value);
             lboxListe.Items.AddRange(islem.RastgeleOlustur(adet));
+
+            tsslBilgi.Text = $@"{lboxListe.Items.Count} adet TC Kimlik No var.";
         }
 
         private void BtnKontrolEt_Click(object sender, EventArgs e)
@@ -28,7 +31,8 @@ namespace TcKimlikNo
             {
                 Islem islem = new Islem();
                 if (islem.Kontrol(txtTcKimlikNo.Text))
-                    MessageBox.Show(@"TC Kimlik Numarası doğru.", @"Sonuç", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(@"TC Kimlik Numarası doğru.", @"Sonuç", MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
                 else
                     MessageBox.Show(@"TC Kimlik Numarası yanlış.", @"Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -45,8 +49,7 @@ namespace TcKimlikNo
                 ListBox.ObjectCollection liste = lboxListe.Items;
                 Dosya.Kaydet(sfdKaydet.FileName, liste);
 
-                MessageBox.Show(@"Üretilen TC Kimlik numaraları kaydedildi.", @"Sonuç", MessageBoxButtons.OK,
-                    MessageBoxIcon.Information);
+                MessageBox.Show(@"Üretilen TC Kimlik numaraları kaydedildi.", @"Sonuç", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -59,12 +62,50 @@ namespace TcKimlikNo
 
         private void LboxListe_Click(object sender, EventArgs e)
         {
-            txtTcKimlikNo.Text = (string) lboxListe.SelectedItem;
+            txtTcKimlikNo.Text = lboxListe.SelectedItem.ToString().TrimEnd();
         }
 
-        private void LboxListe_DoubleClick(object sender, EventArgs e)
+        private void LboxListe_DrawItem(object sender, DrawItemEventArgs e)
         {
-            btnKontrolEt.PerformClick();
+            if ((e.State & DrawItemState.Selected) == DrawItemState.Selected)
+                e = new DrawItemEventArgs(e.Graphics, e.Font, e.Bounds, e.Index, e.State ^ DrawItemState.Selected, e.ForeColor, Color.LightGray);
+
+            string numara = lboxListe.Items[e.Index].ToString();
+
+            SolidBrush firca = new SolidBrush(Color.Green);
+            if (numara.Contains("   "))
+                firca = new SolidBrush(Color.Red);
+
+            e.Graphics.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
+            e.DrawBackground();
+            e.Graphics.DrawString(numara, new Font("Calibri", 12), firca, e.Bounds.Left, e.Bounds.Top);
+        }
+
+        private void LboxListe_MouseDown(object sender, MouseEventArgs e)
+        {
+            if ((e.Button & MouseButtons.Right) != 0)
+            {
+                lboxListe.SelectedIndex = lboxListe.IndexFromPoint(e.X, e.Y);
+                txtTcKimlikNo.Text = lboxListe.SelectedItem.ToString().TrimEnd();
+            }
+        }
+
+        private void LboxListe_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control && e.KeyCode == Keys.C)
+            {
+                txtTcKimlikNo.Copy();
+                Clipboard.SetText(lboxListe.SelectedItem.ToString().TrimEnd());
+            }
+
+            if (e.Control && e.KeyCode == Keys.X)
+            {
+                txtTcKimlikNo.Cut();
+                Clipboard.SetText(lboxListe.SelectedItem.ToString().TrimEnd());
+            }
+
+            if (e.Control && e.KeyCode == Keys.V)
+                tsmYapistir.PerformClick();
         }
 
         private void TsmKes_Click(object sender, EventArgs e)
@@ -75,12 +116,13 @@ namespace TcKimlikNo
 
         private void TsmKopyala_Click(object sender, EventArgs e)
         {
+            txtTcKimlikNo.SelectAll();
             txtTcKimlikNo.Copy();
         }
 
         private void TsmYapistir_Click(object sender, EventArgs e)
         {
-            txtTcKimlikNo.SelectAll();
+            txtTcKimlikNo.Clear();
             txtTcKimlikNo.Paste();
         }
 

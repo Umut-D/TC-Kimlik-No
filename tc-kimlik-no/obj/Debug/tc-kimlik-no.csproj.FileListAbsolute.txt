@@ -6,3 +6,14 @@ D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Debug\tc_kimlik_no.
 D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Debug\tc-kimlik-no.csproj.GenerateResource.Cache
 D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Debug\tc-kimlik-no.exe
 D:\Belgelerim\C# Uygulamaları\tc-kimlik-no\tc-kimlik-no\obj\Debug\tc-kimlik-no.pdb
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\bin\Debug\TC Kimlik No.exe.config
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\bin\Debug\TC Kimlik No.exe
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\bin\Debug\TC Kimlik No.pdb
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Debug\tc-kimlik-no.csprojAssemblyReference.cache
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Debug\TcKimlikNo.FrmTopluTest.resources
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Debug\TcKimlikNo.FrmTcKimlik.resources
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Debug\TcKimlikNo.Properties.Resources.resources
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Debug\tc-kimlik-no.csproj.GenerateResource.cache
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Debug\tc-kimlik-no.csproj.CoreCompileInputs.cache
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Debug\TC Kimlik No.exe
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Debug\TC Kimlik No.pdb

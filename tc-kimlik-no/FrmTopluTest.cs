@@ -28,7 +28,11 @@ namespace TcKimlikNo
                 
                 if (islem.Kontrol(satir))
                     _frmTcKimlik.lboxListe.Items.Add(satir);
+                else
+                    _frmTcKimlik.lboxListe.Items.Add(satir + "   ");
             }
+
+            _frmTcKimlik.tsslBilgi.Text = $@"{_frmTcKimlik.lboxListe.Items.Count} adet TC Kimlik No var.";
 
             Close();
             Dispose();

@@ -15,3 +15,14 @@ D:\Downloads\tc-kimlik-no-proje\tc-kimlik-no\tc-kimlik-no\obj\Release\tc-kimlik-
 D:\Downloads\tc-kimlik-no-proje\tc-kimlik-no\tc-kimlik-no\obj\Release\tc-kimlik-no.csproj.CoreCompileInputs.cache
 D:\Downloads\tc-kimlik-no-proje\tc-kimlik-no\tc-kimlik-no\obj\Release\TC Kimlik No.exe
 D:\Downloads\tc-kimlik-no-proje\tc-kimlik-no\tc-kimlik-no\obj\Release\TC Kimlik No.pdb
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\bin\Release\TC Kimlik No.exe.config
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\bin\Release\TC Kimlik No.exe
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\bin\Release\TC Kimlik No.pdb
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Release\tc-kimlik-no.csprojAssemblyReference.cache
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Release\TcKimlikNo.FrmTopluTest.resources
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Release\TcKimlikNo.FrmTcKimlik.resources
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Release\TcKimlikNo.Properties.Resources.resources
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Release\tc-kimlik-no.csproj.GenerateResource.cache
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Release\tc-kimlik-no.csproj.CoreCompileInputs.cache
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Release\TC Kimlik No.exe
+C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Release\TC Kimlik No.pdb
