@@ -10,3 +10,5 @@ TC Kimlik Numarası oluşturan, (tekli veya toplu) kontrol eden program.
 - Oluşturulan TC kimlik numaralarını metin belgesi olarak kaydetme,
 - TC Kimlik Numarası kontrolü,
 - (İstek üzerine) Toplu halde TC Kimlik Numarası kontrolü.
+- (İstek) Toplu halde kontrol yaparken doğru ve yanlış numaraları farklı renklerde gösterme,
+- (İstek) Çalışan kısayollar.
