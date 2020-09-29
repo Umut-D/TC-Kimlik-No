@@ -47,7 +47,7 @@
             // 
             // BtnTopluAktar
             // 
-            this.BtnTopluAktar.Location = new System.Drawing.Point(17, 274);
+            this.BtnTopluAktar.Location = new System.Drawing.Point(17, 266);
             this.BtnTopluAktar.Name = "BtnTopluAktar";
             this.BtnTopluAktar.Size = new System.Drawing.Size(289, 25);
             this.BtnTopluAktar.TabIndex = 1;
@@ -70,16 +70,16 @@
             this.chkHatalilariGoster.AutoSize = true;
             this.chkHatalilariGoster.Location = new System.Drawing.Point(18, 238);
             this.chkHatalilariGoster.Name = "chkHatalilariGoster";
-            this.chkHatalilariGoster.Size = new System.Drawing.Size(274, 30);
+            this.chkHatalilariGoster.Size = new System.Drawing.Size(199, 22);
             this.chkHatalilariGoster.TabIndex = 3;
             this.chkHatalilariGoster.Text = "Sadece hatalı olanları göster";
             this.chkHatalilariGoster.UseVisualStyleBackColor = true;
             // 
             // FrmTopluTest
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(320, 311);
+            this.ClientSize = new System.Drawing.Size(320, 301);
             this.Controls.Add(this.chkHatalilariGoster);
             this.Controls.Add(this.lblBilgi);
             this.Controls.Add(this.BtnTopluAktar);
