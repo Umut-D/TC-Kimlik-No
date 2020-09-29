@@ -62,14 +62,31 @@ namespace TcKimlikNo
 
         private void LboxListe_Click(object sender, EventArgs e)
         {
+            if (lboxListe.Items.Count <= 0)
+                return;
+
             txtTcKimlikNo.Text = lboxListe.SelectedItem.ToString().TrimEnd();
         }
 
         private void LboxListe_DrawItem(object sender, DrawItemEventArgs e)
         {
+            if (lboxListe.Items.Count <= 0)
+                return;
+
+            e = SecilenDegeriRenklendir(e);
+            DegerleriRenklendir(e);
+        }
+
+        private DrawItemEventArgs SecilenDegeriRenklendir(DrawItemEventArgs e)
+        {
             if ((e.State & DrawItemState.Selected) == DrawItemState.Selected)
                 e = new DrawItemEventArgs(e.Graphics, e.Font, e.Bounds, e.Index, e.State ^ DrawItemState.Selected, e.ForeColor, Color.LightGray);
 
+            return e;
+        }
+
+        private void DegerleriRenklendir(DrawItemEventArgs e)
+        {
             string numara = lboxListe.Items[e.Index].ToString();
 
             SolidBrush firca = new SolidBrush(Color.Green);

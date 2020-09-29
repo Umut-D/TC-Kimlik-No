@@ -31,6 +31,7 @@
             this.txtListe = new System.Windows.Forms.TextBox();
             this.BtnTopluAktar = new System.Windows.Forms.Button();
             this.lblBilgi = new System.Windows.Forms.Label();
+            this.chkHatalilariGoster = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // txtListe
@@ -40,14 +41,15 @@
             this.txtListe.Multiline = true;
             this.txtListe.Name = "txtListe";
             this.txtListe.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtListe.Size = new System.Drawing.Size(288, 146);
+            this.txtListe.Size = new System.Drawing.Size(288, 162);
             this.txtListe.TabIndex = 0;
+            this.txtListe.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtListe_KeyPress);
             // 
             // BtnTopluAktar
             // 
-            this.BtnTopluAktar.Location = new System.Drawing.Point(17, 223);
+            this.BtnTopluAktar.Location = new System.Drawing.Point(17, 274);
             this.BtnTopluAktar.Name = "BtnTopluAktar";
-            this.BtnTopluAktar.Size = new System.Drawing.Size(290, 25);
+            this.BtnTopluAktar.Size = new System.Drawing.Size(289, 25);
             this.BtnTopluAktar.TabIndex = 1;
             this.BtnTopluAktar.Text = "Toplu Aktar";
             this.BtnTopluAktar.UseVisualStyleBackColor = true;
@@ -63,11 +65,22 @@
     "oğru olanlar listeye otomatik olarak eklenecektir.";
             this.lblBilgi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // chkHatalilariGoster
+            // 
+            this.chkHatalilariGoster.AutoSize = true;
+            this.chkHatalilariGoster.Location = new System.Drawing.Point(18, 238);
+            this.chkHatalilariGoster.Name = "chkHatalilariGoster";
+            this.chkHatalilariGoster.Size = new System.Drawing.Size(274, 30);
+            this.chkHatalilariGoster.TabIndex = 3;
+            this.chkHatalilariGoster.Text = "Sadece hatalı olanları göster";
+            this.chkHatalilariGoster.UseVisualStyleBackColor = true;
+            // 
             // FrmTopluTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(320, 259);
+            this.ClientSize = new System.Drawing.Size(320, 311);
+            this.Controls.Add(this.chkHatalilariGoster);
             this.Controls.Add(this.lblBilgi);
             this.Controls.Add(this.BtnTopluAktar);
             this.Controls.Add(this.txtListe);
@@ -89,5 +102,6 @@
         private System.Windows.Forms.TextBox txtListe;
         private System.Windows.Forms.Button BtnTopluAktar;
         private System.Windows.Forms.Label lblBilgi;
+        private System.Windows.Forms.CheckBox chkHatalilariGoster;
     }
 }

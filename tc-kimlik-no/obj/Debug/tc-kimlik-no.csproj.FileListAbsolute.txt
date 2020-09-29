@@ -17,3 +17,14 @@ C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Debug\tc-kimlik-no.csproj.Ge
 C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Debug\tc-kimlik-no.csproj.CoreCompileInputs.cache
 C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Debug\TC Kimlik No.exe
 C:\Users\Zeta\Desktop\TC-Kimlik-No\tc-kimlik-no\obj\Debug\TC Kimlik No.pdb
+D:\Belgelerim\Programlar\C#\+ Github\TC-Kimlik-No\tc-kimlik-no\bin\Debug\TC Kimlik No.exe.config
+D:\Belgelerim\Programlar\C#\+ Github\TC-Kimlik-No\tc-kimlik-no\bin\Debug\TC Kimlik No.exe
+D:\Belgelerim\Programlar\C#\+ Github\TC-Kimlik-No\tc-kimlik-no\bin\Debug\TC Kimlik No.pdb
+D:\Belgelerim\Programlar\C#\+ Github\TC-Kimlik-No\tc-kimlik-no\obj\Debug\tc-kimlik-no.csprojAssemblyReference.cache
+D:\Belgelerim\Programlar\C#\+ Github\TC-Kimlik-No\tc-kimlik-no\obj\Debug\TcKimlikNo.FrmTopluTest.resources
+D:\Belgelerim\Programlar\C#\+ Github\TC-Kimlik-No\tc-kimlik-no\obj\Debug\TcKimlikNo.FrmTcKimlik.resources
+D:\Belgelerim\Programlar\C#\+ Github\TC-Kimlik-No\tc-kimlik-no\obj\Debug\TcKimlikNo.Properties.Resources.resources
+D:\Belgelerim\Programlar\C#\+ Github\TC-Kimlik-No\tc-kimlik-no\obj\Debug\tc-kimlik-no.csproj.GenerateResource.cache
+D:\Belgelerim\Programlar\C#\+ Github\TC-Kimlik-No\tc-kimlik-no\obj\Debug\tc-kimlik-no.csproj.CoreCompileInputs.cache
+D:\Belgelerim\Programlar\C#\+ Github\TC-Kimlik-No\tc-kimlik-no\obj\Debug\TC Kimlik No.exe
+D:\Belgelerim\Programlar\C#\+ Github\TC-Kimlik-No\tc-kimlik-no\obj\Debug\TC Kimlik No.pdb

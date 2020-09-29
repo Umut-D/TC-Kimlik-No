@@ -1,6 +1,6 @@
 # TC Kimlik No
 
-<img src="https://img.shields.io/badge/Versiyon-1.21-blueviolet.svg?style=flat" alt="Versiyon" /> <img src="https://img.shields.io/badge/Durum-Çalışıyor-success.svg?style=flat" alt="Çalışıyor" /> <img src="https://img.shields.io/badge/Lisans-MIT-blue.svg?style=flat" alt="Lisans" /> <img src="https://img.shields.io/badge/Arşiv-orange.svg?style=flat" alt="Arşiv" /> 
+<img src="https://img.shields.io/badge/Versiyon-1.22-blueviolet.svg?style=flat" alt="Versiyon" /> <img src="https://img.shields.io/badge/Durum-Çalışıyor-success.svg?style=flat" alt="Çalışıyor" /> <img src="https://img.shields.io/badge/Lisans-MIT-blue.svg?style=flat" alt="Lisans" /> <img src="https://img.shields.io/badge/Arşiv-orange.svg?style=flat" alt="Arşiv" /> 
 
 TC Kimlik Numarası oluşturan, (tekli veya toplu) kontrol eden program.
 
@@ -11,4 +11,5 @@ TC Kimlik Numarası oluşturan, (tekli veya toplu) kontrol eden program.
 - TC Kimlik Numarası kontrolü,
 - (İstek üzerine) Toplu halde TC Kimlik Numarası kontrolü.
 - (İstek) Toplu halde kontrol yaparken doğru ve yanlış numaraları farklı renklerde gösterme,
-- (İstek) Çalışan kısayollar.
+- (İstek) Toplu halde kontrol yaparken sadece doğru veya sadece yanlış numaraları gösterme,
+- (İstek) İşe yarayan kısayollar.
