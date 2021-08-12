@@ -1,4 +1,4 @@
-﻿namespace TcKimlikNo
+﻿namespace TcKimlikNoUI
 {
     partial class FrmTopluTest
     {

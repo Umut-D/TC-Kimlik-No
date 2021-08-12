@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using System.Windows.Forms;
 
-namespace TcKimlikNo
+namespace TCKimlikNoLibrary
 {
-    class Dosya
+    public class Dosya
     {
         public static void Kaydet(string dosyaAdi, ListBox.ObjectCollection liste)
         {

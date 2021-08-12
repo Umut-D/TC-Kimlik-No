@@ -7,7 +7,7 @@
     <ProjectGuid>{9B7ECA1B-C78F-4F8B-8A13-9D938CB922C8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TcKimlikNo</RootNamespace>
+    <RootNamespace>TcKimlikNoUI</RootNamespace>
     <AssemblyName>TC Kimlik No</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -28,7 +28,7 @@
     <ProductName>TC Kimlik No</ProductName>
     <PublisherName>Umut D.</PublisherName>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.2.2.%2a</ApplicationVersion>
+    <ApplicationVersion>1.2.3.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -72,14 +72,12 @@
     <Compile Include="FrmTopluTest.Designer.cs">
       <DependentUpon>FrmTopluTest.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dosya.cs" />
     <Compile Include="FrmTcKimlik.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmTcKimlik.Designer.cs">
       <DependentUpon>FrmTcKimlik.cs</DependentUpon>
     </Compile>
-    <Compile Include="Islem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmTopluTest.resx">
@@ -123,6 +121,12 @@
       <ProductName>.NET Framework 3.5 SP1 </ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TC-Kimlik-No-Library\TC-Kimlik-No-Library.csproj">
+      <Project>{07e25176-55f1-43c4-9625-59a9422b7e47}</Project>
+      <Name>TC-Kimlik-No-Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

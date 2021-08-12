@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace TcKimlikNo
+namespace TCKimlikNoLibrary
 {
     public class Islem
     {

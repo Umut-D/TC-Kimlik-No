@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
+using TCKimlikNoLibrary;
 
-namespace TcKimlikNo
+namespace TcKimlikNoUI
 {
     public partial class FrmTopluTest : Form
     {

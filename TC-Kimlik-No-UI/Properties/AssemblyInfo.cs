@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // Derleme hakkında Genel Bilgiler aşağıdakilerle denetlenir. 
 // kontrol edilir. Derlemeyle ilişkilendirilen bilgiyi değiştirmek için
 // bu öznitelik değerlerini değiştirin.
-[assembly: AssemblyTitle("Tc Kimlik No")]
+[assembly: AssemblyTitle("TC Kimlik No")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Umut D.")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // Bütün değerleri belirtebilir ya da Yapı ve Düzeltme Numaralarını varsayılan olarak seçebilirsiniz 
 // Yapı Numaralarını varsayılan yapabilirsiniz:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.2.2.0")]
-[assembly: AssemblyFileVersion("1.2.2.0")]
+[assembly: AssemblyVersion("1.2.3.0")]
+[assembly: AssemblyFileVersion("1.2.3.0")]

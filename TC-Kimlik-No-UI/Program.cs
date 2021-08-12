@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace TcKimlikNo
+namespace TcKimlikNoUI
 {
     static class Program
     {

@@ -2,8 +2,9 @@
 using System.Drawing;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using TCKimlikNoLibrary;
 
-namespace TcKimlikNo
+namespace TcKimlikNoUI
 {
     public partial class FrmTcKimlik : Form
     {
